@@ -1,0 +1,222 @@
+{
+  "settings": {
+    "name": "KINORA",
+    "tagline": "Stories deserve a space of their own.",
+    "hero_title": "A different way to see the story.",
+    "accent": "#93a7ff"
+  },
+  "creators": [
+    {
+      "id": "north-archive",
+      "name": "North Archive",
+      "username": "northarchive",
+      "bio": "Một bộ sưu tập hình ảnh thử nghiệm — Demo profile.",
+      "website": "",
+      "color": "#39435b"
+    },
+    {
+      "id": "lumen-studio",
+      "name": "Lumen Studio",
+      "username": "lumenstudio",
+      "bio": "Visual exploration and creative edits — Demo profile.",
+      "website": "",
+      "color": "#4c3e60"
+    },
+    {
+      "id": "motion-room",
+      "name": "Motion Room",
+      "username": "motionroom",
+      "bio": "Research in motion, shape and sound — Demo profile.",
+      "website": "",
+      "color": "#405455"
+    }
+  ],
+  "videos": [
+    {
+      "id": "demo-01",
+      "title": "Thành phố sau ánh đèn",
+      "description": "Urban atmosphere / demo visual concept\n\nĐây là nội dung minh họa giao diện. Không phải video của người đăng thật.",
+      "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+      "thumbnail_url": "",
+      "creator_id": "north-archive",
+      "owner_name": "North Archive",
+      "original_url": "",
+      "copyright": "Nội dung minh họa — không xác nhận quyền sở hữu.",
+      "display_date": "2026-11-15",
+      "original_date": "",
+      "views": 12840,
+      "likes": 932,
+      "dislikes": 17,
+      "comments_count": 0,
+      "shares": 0,
+      "duration": "04:12",
+      "tags": [
+        "demo",
+        "creative"
+      ],
+      "category": "Visual stories",
+      "featured": true,
+      "visibility": "public",
+      "demo": true,
+      "shade": "#364763",
+      "glow": "#6c8aad"
+    },
+    {
+      "id": "demo-02",
+      "title": "Những đường nét vô hình",
+      "description": "Abstract motion experiment\n\nĐây là nội dung minh họa giao diện. Không phải video của người đăng thật.",
+      "video_url": "",
+      "thumbnail_url": "",
+      "creator_id": "lumen-studio",
+      "owner_name": "Lumen Studio",
+      "original_url": "",
+      "copyright": "Nội dung minh họa — không xác nhận quyền sở hữu.",
+      "display_date": "2026-11-14",
+      "original_date": "",
+      "views": 8302,
+      "likes": 612,
+      "dislikes": 9,
+      "comments_count": 0,
+      "shares": 0,
+      "duration": "02:48",
+      "tags": [
+        "demo",
+        "creative"
+      ],
+      "category": "Visual stories",
+      "featured": false,
+      "visibility": "public",
+      "demo": true,
+      "shade": "#493c61",
+      "glow": "#a27bb3"
+    },
+    {
+      "id": "demo-03",
+      "title": "Hành trình của ánh sáng",
+      "description": "Visual essay / editorial motion\n\nĐây là nội dung minh họa giao diện. Không phải video của người đăng thật.",
+      "video_url": "",
+      "thumbnail_url": "",
+      "creator_id": "motion-room",
+      "owner_name": "Motion Room",
+      "original_url": "",
+      "copyright": "Nội dung minh họa — không xác nhận quyền sở hữu.",
+      "display_date": "2026-11-13",
+      "original_date": "",
+      "views": 6210,
+      "likes": 385,
+      "dislikes": 6,
+      "comments_count": 0,
+      "shares": 0,
+      "duration": "03:16",
+      "tags": [
+        "demo",
+        "creative"
+      ],
+      "category": "Visual stories",
+      "featured": false,
+      "visibility": "public",
+      "demo": true,
+      "shade": "#325358",
+      "glow": "#72cdb1"
+    },
+    {
+      "id": "demo-04",
+      "title": "Một khoảng lặng",
+      "description": "Creative short film concept\n\nĐây là nội dung minh họa giao diện. Không phải video của người đăng thật.",
+      "video_url": "",
+      "thumbnail_url": "",
+      "creator_id": "north-archive",
+      "owner_name": "North Archive",
+      "original_url": "",
+      "copyright": "Nội dung minh họa — không xác nhận quyền sở hữu.",
+      "display_date": "2026-11-12",
+      "original_date": "",
+      "views": 2104,
+      "likes": 142,
+      "dislikes": 2,
+      "comments_count": 0,
+      "shares": 0,
+      "duration": "01:57",
+      "tags": [
+        "demo",
+        "creative"
+      ],
+      "category": "Visual stories",
+      "featured": false,
+      "visibility": "public",
+      "demo": true,
+      "shade": "#58463f",
+      "glow": "#d39a76"
+    },
+    {
+      "id": "demo-05",
+      "title": "Bên kia khung hình",
+      "description": "Frame studies and perspective\n\nĐây là nội dung minh họa giao diện. Không phải video của người đăng thật.",
+      "video_url": "",
+      "thumbnail_url": "",
+      "creator_id": "lumen-studio",
+      "owner_name": "Lumen Studio",
+      "original_url": "",
+      "copyright": "Nội dung minh họa — không xác nhận quyền sở hữu.",
+      "display_date": "2026-11-11",
+      "original_date": "",
+      "views": 1158,
+      "likes": 92,
+      "dislikes": 1,
+      "comments_count": 0,
+      "shares": 0,
+      "duration": "05:08",
+      "tags": [
+        "demo",
+        "creative"
+      ],
+      "category": "Visual stories",
+      "featured": false,
+      "visibility": "public",
+      "demo": true,
+      "shade": "#394e6e",
+      "glow": "#7993e9"
+    },
+    {
+      "id": "demo-06",
+      "title": "Dưới bóng hoàng hôn",
+      "description": "Atmospheric color palette\n\nĐây là nội dung minh họa giao diện. Không phải video của người đăng thật.",
+      "video_url": "",
+      "thumbnail_url": "",
+      "creator_id": "motion-room",
+      "owner_name": "Motion Room",
+      "original_url": "",
+      "copyright": "Nội dung minh họa — không xác nhận quyền sở hữu.",
+      "display_date": "2026-11-10",
+      "original_date": "",
+      "views": 640,
+      "likes": 31,
+      "dislikes": 0,
+      "comments_count": 0,
+      "shares": 0,
+      "duration": "03:32",
+      "tags": [
+        "demo",
+        "creative"
+      ],
+      "category": "Visual stories",
+      "featured": false,
+      "visibility": "public",
+      "demo": true,
+      "shade": "#5e4b53",
+      "glow": "#c78ca5"
+    }
+  ],
+  "comments": [
+    {
+      "id": "demo-comment-1",
+      "video_id": "demo-01",
+      "name": "Studio Preview",
+      "body": "Đây là bình luận mô phỏng dùng để xem trước giao diện.",
+      "date": "2026-11-13",
+      "demo": true,
+      "likes": 2
+    }
+  ],
+  "demo_data": true
+}
