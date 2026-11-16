@@ -1,0 +1,29 @@
+name: Expand Kinora source
+on:
+  push:
+    paths:
+      - "kinora-source.tar.xz.b64"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Extract and commit the PHP source
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f kinora-source.tar.xz.b64 || exit 0
+          base64 -d kinora-source.tar.xz.b64 > kinora-source.tar.xz
+          tar -xJf kinora-source.tar.xz
+          rm -f kinora-source.tar.xz kinora-source.tar.xz.b64
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "Add complete Kinora PHP and JSON platform source"
+            git push origin HEAD:main
+          fi
